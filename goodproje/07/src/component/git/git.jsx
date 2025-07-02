@@ -4,7 +4,7 @@ export default function git() {
 
     const [data, setData] = React.useState([])  
     useEffect(() => {
-        fetch('https://api.github.com/users/shreyas-roy')
+        fetch('https://api.github.com/users/shreyas367')
             .then(response => response.json())
             .then(data => {
                 setData(data);
@@ -15,8 +15,11 @@ export default function git() {
 
 
   return (
-       
-          
-      <div className="bg-gray-100 p-4 rounded-lg shadow-md">Github User Info :{data.followers}</div>   
+    <>
+      <div className="bg-gray-100 p-4 rounded-lg shadow-md">Github ID : {data.login} 
+        <br /> Username: {data.name}
+        <br />Repository : {data.public_repos}</div>
+      <div className="bg-gray-100 p-4 rounded-lg shadow-md">Github Followers :{data.followers}</div>   
+    </>
   )
 }

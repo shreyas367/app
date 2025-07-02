@@ -7,7 +7,7 @@ function about() {
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                     <div className="md:5/12 lg:w-5/12">
                         <img
-                            src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
+                            src="https://media.istockphoto.com/id/816887384/photo/about-us.jpg?s=612x612&w=0&k=20&c=2X8lobqw8nUWHMshyfcExb7jmF73u9XzIBAsVMjLFv4="
                             alt="image"
                         />
                     </div>
